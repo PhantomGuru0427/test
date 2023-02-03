@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/ubuntu/blockscout-rs/smart-contract-verifier/target/release/build/typenum-754e637b94a2744f/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/ubuntu/blockscout-rs/smart-contract-verifier/target/release/build/typenum-754e637b94a2744f/out/op.rs
